@@ -1,11 +1,18 @@
 package spring.care.api.medico;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import spring.care.api.endereco.Endereco;
 
 @Table(name = "medico")
 @Entity(name = "Medico")
-
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of = "id")
 public class Medico {
 
     @Id
