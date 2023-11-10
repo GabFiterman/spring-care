@@ -1,5 +1,8 @@
 package spring.care.api.endereco;
 
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 public class Endereco {
 
     private String logradouro;
