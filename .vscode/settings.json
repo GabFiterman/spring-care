@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#716606",
+        "activityBar.activeBackground": "#312d04",
+        "activityBar.foreground": "#fffcf0",
+        "activityBar.activeBorder": "#ffe600",
+        "activityBar.inactiveForeground": "#eee8b6",
+        "titleBar.activeBackground": "#716606",
+        "titleBar.activeForeground": "#fffcf0"
+    },
+    "workbench.tree.indent": 12,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
