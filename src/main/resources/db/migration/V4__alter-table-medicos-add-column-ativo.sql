@@ -1,0 +1,11 @@
+ALTER TABLE medicos
+ADD COLUMN ativo BOOLEAN DEFAULT TRUE;
+
+UPDATE medicos
+SET
+    ativo = TRUE;
+
+ALTER TABLE medicos
+ALTER COLUMN ativo
+SET
+    NOT NULL;
