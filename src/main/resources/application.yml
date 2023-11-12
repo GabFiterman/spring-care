@@ -12,3 +12,10 @@ spring:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
                 format_sql: true
         show-sql: true
+    data:
+        web:
+            pageable:
+                page-parameter: pagina
+                size-parameter: tamanho
+            sort:
+                sort-parameter: ordem
